@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,18 +9,23 @@
   text-decoration: none;
   list-style: none;
 }
-body{
-width: 100svw;
-height: 100svh;    
+body {
+  width: 100svw;
+  height: 100svh;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
 }
 
-
-
-
-
-
-
-
+header ul {
+  display: flex;
+  gap: 10px;
+}
 
 /* .hero {
   position: relative;
@@ -38,7 +45,7 @@ height: 100svh;
 /* .hero h1 {
   position: relative;
   z-index: 1; /* يخلي النص فوق الـ before */
-  /* color: white;
+/* color: white;
   text-align: center;
   padding-top: 180px;
-} */ 
+} */
