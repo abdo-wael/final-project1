@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  position: relative;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+width: 100svw;
+height: 100svh;    
+}
+
+
+
+
+
+
+
+
+
+/* .hero {
+  position: relative;
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* طبقة شفافة */
+/* } */
+
+/* .hero h1 {
+  position: relative;
+  z-index: 1; /* يخلي النص فوق الـ before */
+  /* color: white;
+  text-align: center;
+  padding-top: 180px;
+} */ 
